@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, Paper & Scissor Game</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="rps.js" async></script>
+    </head>
+    <body>
+        <header>
+            <h1>Rock, Paper and Scissor Game</h1>
+        </header>
+        <section id="section">
+            <div>
+                <h2>Pick one</h2>
+            </div>
+            <div id="rps-id" class="rps-class">
+                <img id="rock" class="rps-pic" src="https://t3.ftcdn.net/jpg/00/55/21/18/360_F_55211893_pMzGwbg4p7yElUGfc868m9dUXaknoWkU.jpg"  onclick="rpsGame(this)">
+                <img id="paper" class="rps-pic" src="https://www.nicepng.com/png/detail/18-181449_paper-drawing-scroll-cartoon-quill-paper-roll-clip.png" onclick="rpsGame(this)">
+                <img id="scissor" class="rps-pic" src="https://media.istockphoto.com/id/1146263300/vector/scissors-vector-design-illustration-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=mwp4-CXaKtvIq9VLvJbFtt94KhWmBPXJC9fFgrcPi3k=" onclick="rpsGame(this)">
+            </div>
+        </section>
+        <div class="reset-div">
+            <button id="reset" onclick="resetBtn()">Reset</button>
+        </div>
+        
+    </body>
+</html>
